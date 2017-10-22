@@ -1,0 +1,21 @@
+
+/*Efeito na pagina*/
+* {
+  box-sizing: border-box;
+  -webkit-transition: 0.4s cubic-bezier(0.75, 0, 0.2, 1), color 0.3s ease;
+  transition: 0.4s cubic-bezier(0.75, 0, 0.2, 1), color 0.3s ease;
+}
+/*Efeito na pagina*/
+.overlay {
+  z-index: -1;
+  display: false;
+  position: fixed;
+  margin: false;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.7);
+  text-align: center;
+  opacity: 0;
+}
